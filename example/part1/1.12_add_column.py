@@ -10,6 +10,6 @@ df = pd.DataFrame(exam_data)
 print(df)
 print('\n')
 
-# 데이터 프레임 df '국어' 점수 열(column) 추가. 데이터 값은 80 지정
+# 데이터프레임 df에 '국어' 점수 열(column) 추가, 데이터 값은 80 지정
 df['국어'] = 80
 print(df)
